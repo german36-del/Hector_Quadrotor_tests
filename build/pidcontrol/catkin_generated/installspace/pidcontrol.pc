@@ -1,0 +1,8 @@
+prefix=/home/german/catkin_ws/install
+
+Name: pidcontrol
+Description: Description of pidcontrol
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lpidcontrol
+Requires: geometry_msgs nav_msgs roscpp rospy tf

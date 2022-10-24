@@ -1,0 +1,8 @@
+prefix=/home/german/catkin_ws/install
+
+Name: follower
+Description: Description of follower
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lfollower_core
+Requires: roscpp rospy std_msgs geometry_msgs nav_msgs tf
